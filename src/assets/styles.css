@@ -1,0 +1,73 @@
+body {
+  font-family: "Vazirmatn", serif;
+  direction: rtl;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://picodl.com/download/mathematical-formulas-drawn-by-hand-white-chalkboard-background_101002-146.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.flag-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.section {
+  flex: 1 1 auto; /* flex-grow: 1, flex-shrink: 1, flex-basis: auto */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+}
+
+.green {
+  background-color: rgba(35, 159, 64, 0.8);
+  color: white;
+}
+
+.white {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.red {
+  background-color: rgba(218, 0, 0, 0.8);
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+input, select, button {
+  margin: 5px 0;
+  padding: 8px; /* کاهش padding */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Vazirmatn", serif;
+  width: 90%; /* کاهش width */
+  max-width: 250px; /* کاهش max-width */
+  box-sizing: border-box;
+}

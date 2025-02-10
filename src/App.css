@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+body {
+  font-family: "Vazirmatn", serif;
+  font-style: normal;
+  direction: rtl;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://picodl.com/download/mathematical-formulas-drawn-by-hand-white-chalkboard-background_101002-146.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.flag-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+}
+.green {
+  background-color: rgba(35, 159, 64, 0.8);
+  color: white;
+}
+.white {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.red {
+  background-color: rgba(218, 0, 0, 0.8);
+  color: white;
+}
+/* (درج استایل‌های بقیه بخش‌ها) */
