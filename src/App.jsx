@@ -8,7 +8,7 @@ import './assets/styles.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MathToolJsx/"> {/* اضافه کردن basename */}
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/math-game" element={<MathGame />} />
