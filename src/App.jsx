@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/MathToolJsx/">
+    <Router basename="/MathToolJsx">
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/math-game" element={<MathGame />} />
