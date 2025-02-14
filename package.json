@@ -1,4 +1,5 @@
 {
+  "homepage": "https://<username>.github.io/<repository-name>",
   "name": "sari-project",
   "private": true,
   "version": "0.0.0",
@@ -26,4 +27,7 @@
     "globals": "^15.14.0",
     "vite": "^6.1.0"
   }
+
+  
 }
+
