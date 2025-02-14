@@ -3,12 +3,12 @@ import MainPage from './components/MainPage';
 import MathGame from './components/MathGame';
 import Calculator from './components/Calculator';
 import UnitConverter from './components/UnitConverter';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // import './assets/styles.css';
 
 function App() {
   return (
-    <Router basename="/MathToolJsx">
+    <Router>
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/math-game" element={<MathGame />} />
